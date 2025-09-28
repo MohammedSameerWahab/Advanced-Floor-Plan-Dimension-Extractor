@@ -1,0 +1,8 @@
+# For reading PDFs
+pymupdf
+
+# For pattern matching
+regex
+
+# Optional: For bonus visualization if you choose it
+opencv-python
