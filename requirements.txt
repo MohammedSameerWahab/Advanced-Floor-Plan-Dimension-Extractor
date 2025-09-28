@@ -1,8 +1,4 @@
-# For reading PDFs
 pymupdf
-
-# For pattern matching
+pytesseract
 regex
-
-# Optional: For bonus visualization if you choose it
 opencv-python
