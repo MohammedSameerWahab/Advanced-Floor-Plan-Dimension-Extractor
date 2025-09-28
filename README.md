@@ -22,7 +22,7 @@ This project is a robust, end-to-end pipeline developed to automate information 
 
 The pipeline follows a strategic, single-pass OCR approach optimized for the specific challenges of architectural documents.
 
-1.  **Image Preprocessing**: The input PDF page is first rendered into a high-resolution image (600 DPI) using PyMuPDF. This step is critical for enhancing the clarity of small-font text, directly improving OCR accuracy.
+1.  **Image Preprocessing**: The input PDF page is first rendered into a high-resolution image using PyMuPDF. This step is critical for enhancing the clarity of small-font text, directly improving OCR accuracy.
 2.  **OCR Data Extraction**: The Tesseract engine processes the high-DPI image to extract all recognizable text, along with crucial metadata such as confidence scores and bounding box coordinates for each word.
 3.  **Regex-based Pattern Matching**: The raw OCR output is parsed using targeted regular expressions. The logic is designed to intelligently identify two distinct entities:
     * **Dimensions**: Matches complex architectural formats (e.g., `12' 6"`).
